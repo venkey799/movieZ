@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat.woff2");
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: black;
+  color: white;
+  font-family: "Montserrat";
+}
+
+.align_center{
+  display: flex;
+  align-items: center;
+}
